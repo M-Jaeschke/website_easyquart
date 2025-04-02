@@ -1,0 +1,13 @@
+easyquart.bhe\_optimization.core namespace
+==========================================
+
+.. py:module:: easyquart.bhe_optimization.core
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   easyquart.bhe_optimization.core.area
+   easyquart.bhe_optimization.core.obstacle

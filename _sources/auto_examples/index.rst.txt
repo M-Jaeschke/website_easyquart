@@ -1,0 +1,89 @@
+:orphan:
+
+Examples
+========
+
+On this page you will find practical examples of using various features of
+how ogstools can be used. Different stages of the simulation workflow are
+covered.
+
+.. toctree::
+   :maxdepth: 3
+
+.. contents:: Contents
+   :local:
+   :depth: 3
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbnails">
+
+.. thumbnail-parent-div-open
+
+.. thumbnail-parent-div-close
+
+.. raw:: html
+
+    </div>
+
+Optimization
+===============================================
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbnails">
+
+.. thumbnail-parent-div-open
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="First, some minimal example usage:">
+
+.. only:: html
+
+  .. image:: /auto_examples/howto_optimization/images/thumb/sphx_glr_problem_definition_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_howto_optimization_problem_definition.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Defining the optimization problem.</div>
+    </div>
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="First, some minimal example usage:">
+
+.. only:: html
+
+  .. image:: /auto_examples/howto_optimization/images/thumb/sphx_glr_problem_discretization_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_howto_optimization_problem_discretization.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Discretization of the defined area.</div>
+    </div>
+
+
+.. thumbnail-parent-div-close
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+   :includehidden:
+
+
+   /auto_examples/howto_optimization/index.rst
+
