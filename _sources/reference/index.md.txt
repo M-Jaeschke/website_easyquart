@@ -1,0 +1,14 @@
+# API reference
+
+```{eval-rst}
+.. include:: easyquart.rst
+```
+
+```{toctree}
+---
+hidden:
+caption: Indices and tables
+---
+/genindex
+/modindex
+```
