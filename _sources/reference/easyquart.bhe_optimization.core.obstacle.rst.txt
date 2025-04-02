@@ -1,7 +1,0 @@
-easyquart.bhe\_optimization.core.obstacle module
-================================================
-
-.. automodule:: easyquart.bhe_optimization.core.obstacle
-   :members:
-   :show-inheritance:
-   :undoc-members:

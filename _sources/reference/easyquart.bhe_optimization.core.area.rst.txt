@@ -1,7 +1,0 @@
-easyquart.bhe\_optimization.core.area module
-============================================
-
-.. automodule:: easyquart.bhe_optimization.core.area
-   :members:
-   :show-inheritance:
-   :undoc-members:
