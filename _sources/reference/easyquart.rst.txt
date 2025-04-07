@@ -14,3 +14,12 @@ Subpackages
 
    easyquart.bhetools
    easyquart.digital_twin
+   easyquart.uncertainty
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   easyquart.definitions

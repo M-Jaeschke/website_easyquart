@@ -28,6 +28,40 @@ covered.
 
     </div>
 
+Uncertainty
+===============================================
+
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbnails">
+
+.. thumbnail-parent-div-open
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="Example for uncertain variables collection">
+
+.. only:: html
+
+  .. image:: /auto_examples/howto_uncertainty/images/thumb/sphx_glr_plot_uncertainty_workflow_thumb.png
+    :alt:
+
+  :ref:`sphx_glr_auto_examples_howto_uncertainty_plot_uncertainty_workflow.py`
+
+.. raw:: html
+
+      <div class="sphx-glr-thumbnail-title">Example for uncertain variables collection</div>
+    </div>
+
+
+.. thumbnail-parent-div-close
+
+.. raw:: html
+
+    </div>
+
 Optimization
 ===============================================
 
@@ -119,6 +153,7 @@ Digital Twin
    :includehidden:
 
 
+   /auto_examples/howto_uncertainty/index.rst
    /auto_examples/howto_optimization/index.rst
    /auto_examples/howto_digital_twin/index.rst
 

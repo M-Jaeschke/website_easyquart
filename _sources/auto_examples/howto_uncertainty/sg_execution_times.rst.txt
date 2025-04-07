@@ -1,12 +1,12 @@
 
 :orphan:
 
-.. _sphx_glr_auto_examples_howto_digital_twin_sg_execution_times:
+.. _sphx_glr_auto_examples_howto_uncertainty_sg_execution_times:
 
 
 Computation times
 =================
-**00:00.074** total execution time for 1 file **from auto_examples/howto_digital_twin**:
+**00:00.404** total execution time for 1 file **from auto_examples/howto_uncertainty**:
 
 .. container::
 
@@ -32,6 +32,6 @@ Computation times
    * - Example
      - Time
      - Mem (MB)
-   * - :ref:`sphx_glr_auto_examples_howto_digital_twin_plot_usecase_digital_twin.py` (``plot_usecase_digital_twin.py``)
-     - 00:00.074
+   * - :ref:`sphx_glr_auto_examples_howto_uncertainty_plot_uncertainty_workflow.py` (``plot_uncertainty_workflow.py``)
+     - 00:00.404
      - 0.0

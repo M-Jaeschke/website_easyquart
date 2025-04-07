@@ -1,0 +1,15 @@
+easyquart.uncertainty package
+=============================
+
+.. automodule:: easyquart.uncertainty
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   easyquart.uncertainty.uncertain_variables

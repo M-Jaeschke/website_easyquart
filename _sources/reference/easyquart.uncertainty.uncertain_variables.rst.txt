@@ -1,0 +1,7 @@
+easyquart.uncertainty.uncertain\_variables module
+=================================================
+
+.. automodule:: easyquart.uncertainty.uncertain_variables
+   :members:
+   :show-inheritance:
+   :undoc-members:

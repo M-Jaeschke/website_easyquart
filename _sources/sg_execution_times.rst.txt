@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:00.060** total execution time for 3 files **from all galleries**:
+**00:00.074** total execution time for 4 files **from all galleries**:
 
 .. container::
 
@@ -33,11 +33,14 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_auto_examples_howto_digital_twin_plot_usecase_digital_twin.py` (``examples/howto_digital_twin/plot_usecase_digital_twin.py``)
-     - 00:00.060
+     - 00:00.074
      - 0.0
    * - :ref:`sphx_glr_auto_examples_howto_optimization_problem_definition.py` (``examples/howto_optimization/problem_definition.py``)
      - 00:00.000
      - 0.0
    * - :ref:`sphx_glr_auto_examples_howto_optimization_problem_discretization.py` (``examples/howto_optimization/problem_discretization.py``)
+     - 00:00.000
+     - 0.0
+   * - :ref:`sphx_glr_auto_examples_howto_uncertainty_plot_uncertainty_workflow.py` (``examples/howto_uncertainty/plot_uncertainty_workflow.py``)
      - 00:00.000
      - 0.0

@@ -21,7 +21,7 @@
 Example usage of the DigitalTwin Class
 ==================================
 
-.. sectionauthor: Max Jäschke (HTWK Leipzig)
+.. sectionauthor:: Max Jäschke (HTWK Leipzig)
 
 .. GENERATED FROM PYTHON SOURCE LINES 10-11
 
@@ -134,7 +134,7 @@ Load the data from file and use it e.g. for the network or subsurface simulation
 
  .. code-block:: none
 
-    The file has been successfully saved as /var/folders/nv/w1zw8hk556sg55ypt4hgm_j40000gn/T/tmppy_a3top/input_modelica.txt.
+    The file has been successfully saved as /var/folders/nv/w1zw8hk556sg55ypt4hgm_j40000gn/T/tmp0vwzf3re/input_modelica.txt.
 
 
 
@@ -201,7 +201,7 @@ Use the results for plotting and further analysis
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.060 seconds)
+   **Total running time of the script:** (0 minutes 0.074 seconds)
 
 
 .. _sphx_glr_download_auto_examples_howto_digital_twin_plot_usecase_digital_twin.py:

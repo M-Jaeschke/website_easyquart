@@ -1,0 +1,7 @@
+easyquart.definitions module
+============================
+
+.. automodule:: easyquart.definitions
+   :members:
+   :show-inheritance:
+   :undoc-members:

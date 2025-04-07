@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Example usage of the DigitalTwin Class &#8212; easyquart 0.0.post1.dev32+g5fd0db2 documentation</title>
+    <title>Uncertainty &#8212; easyquart 0.0.post1.dev32+g5fd0db2 documentation</title>
   
   
   
@@ -31,7 +31,7 @@
 <link href="../../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=d2d258e8" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -49,7 +49,7 @@
     <script src="../../_static/doctools.js?v=9bcbadda"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/design-tabs.js?v=f930bc37"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'auto_examples/howto_digital_twin/plot_usecase_digital_twin';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'auto_examples/howto_uncertainty/index';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = '_static/versions.json';
@@ -59,8 +59,8 @@
         </script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="API reference" href="../../reference/index.html" />
-    <link rel="prev" title="Digital Twin" href="index.html" />
+    <link rel="next" title="Example for uncertain variables collection" href="plot_uncertainty_workflow.html" />
+    <link rel="prev" title="Examples" href="../index.html" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700&display=swap">
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -387,8 +387,8 @@
      aria-label="Section Navigation">
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../howto_uncertainty/index.html">Uncertainty</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../howto_uncertainty/plot_uncertainty_workflow.html">Example for uncertain variables collection</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Uncertainty</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="plot_uncertainty_workflow.html">Example for uncertain variables collection</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../howto_optimization/index.html">Optimization</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -396,8 +396,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../howto_optimization/problem_discretization.html">Discretization of the defined area.</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Digital Twin</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Example usage of the DigitalTwin Class</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../howto_digital_twin/index.html">Digital Twin</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../howto_digital_twin/plot_usecase_digital_twin.html">Example usage of the DigitalTwin Class</a></li>
 </ul>
 </details></li>
 </ul>
@@ -443,10 +443,7 @@
     
     <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Examples</a></li>
     
-    
-    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Digital Twin</a></li>
-    
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Example usage of the DigitalTwin Class</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Uncertainty</span></li>
   </ul>
 </nav>
 </div>
@@ -463,109 +460,12 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="sphx-glr-download-link-note admonition note">
-<p class="admonition-title">Note</p>
-<p><a class="reference internal" href="#sphx-glr-download-auto-examples-howto-digital-twin-plot-usecase-digital-twin-py"><span class="std std-ref">Go to the end</span></a>
-to download the full example code.</p>
-</div>
-<section class="sphx-glr-example-title" id="example-usage-of-the-digitaltwin-class">
-<span id="sphx-glr-auto-examples-howto-digital-twin-plot-usecase-digital-twin-py"></span><h1>Example usage of the DigitalTwin Class<a class="headerlink" href="#example-usage-of-the-digitaltwin-class" title="Link to this heading">#</a></h1>
-<p><em>Section author: Max Jäschke (HTWK Leipzig)</em></p>
-<p>Import the needed packages and the digital twin class</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">tempfile</span><span class="w"> </span><span class="kn">import</span> <span class="n">mkdtemp</span>
-
-<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-
-<span class="kn">from</span><span class="w"> </span><span class="nn">easyquart.digital_twin</span><span class="w"> </span><span class="kn">import</span> <span class="n">DigitalTwinEasyQuart</span>
-</pre></div>
-</div>
-<p>Define simple data arrays to demonstrate the showcase</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">timevalues</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">stop</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="mi">11</span><span class="p">)</span>
-<span class="n">network_flow_rate</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mf">0.002</span><span class="p">)</span>
-<span class="n">building_power</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-<span class="n">bhe_to_network_temperatures</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">273.15</span><span class="p">,</span> <span class="mf">280.15</span><span class="p">]),</span> <span class="mi">11</span><span class="p">)</span>
-<span class="n">bhe_to_network_avg_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mf">273.15</span><span class="p">)</span>
-<span class="n">network_to_bhe_temperatures</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">273.15</span><span class="p">,</span> <span class="mf">280.15</span><span class="p">]),</span> <span class="mi">11</span><span class="p">)</span>
-<span class="n">network_to_bhe_avg_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mf">273.15</span><span class="p">)</span>
-<span class="n">network_to_building_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mf">273.15</span><span class="p">)</span>
-<span class="n">building_to_network_temperature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mf">273.15</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Create class object with known values from the building and HVAC simulation and write to file</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">tmp_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">mkdtemp</span><span class="p">())</span>
-<span class="n">h5_file</span> <span class="o">=</span> <span class="n">tmp_dir</span> <span class="o">/</span> <span class="s2">&quot;iter_0.h5&quot;</span>
-
-<span class="n">building_digital_twin</span> <span class="o">=</span> <span class="n">DigitalTwinEasyQuart</span><span class="p">(</span>
-    <span class="n">rho_refrigerant</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>
-    <span class="n">cp_refrigerant</span><span class="o">=</span><span class="mf">4000.0</span><span class="p">,</span>
-    <span class="n">timevalues</span><span class="o">=</span><span class="n">timevalues</span><span class="p">,</span>
-    <span class="n">network_flow_rate</span><span class="o">=</span><span class="n">network_flow_rate</span><span class="p">,</span>
-    <span class="n">networkToBuilding_temperature</span><span class="o">=</span><span class="n">network_to_building_temperature</span><span class="p">,</span>
-    <span class="n">buildingToNetwork_temperature</span><span class="o">=</span><span class="n">building_to_network_temperature</span><span class="p">,</span>
-    <span class="n">building_power</span><span class="o">=</span><span class="n">building_power</span><span class="p">,</span>
-<span class="p">)</span>
-
-<span class="n">building_digital_twin</span><span class="o">.</span><span class="n">save_h5</span><span class="p">(</span><span class="n">h5_file</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Load the data from file and use it e.g. for the network or subsurface simulation</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">digital_twin_iter0</span> <span class="o">=</span> <span class="n">DigitalTwinEasyQuart</span><span class="o">.</span><span class="n">load_h5</span><span class="p">(</span><span class="n">h5_file</span><span class="p">)</span>
-
-<span class="n">modelica_txt_file</span> <span class="o">=</span> <span class="n">tmp_dir</span> <span class="o">/</span> <span class="s2">&quot;input_modelica.txt&quot;</span>
-<span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">write_dataclass_to_txt</span><span class="p">(</span>
-    <span class="n">columns_to_write</span><span class="o">=</span><span class="p">[</span>
-        <span class="s2">&quot;timevalues&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;network_flow_rate&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;buildingToNetwork_temperature&quot;</span><span class="p">,</span>
-    <span class="p">],</span>
-    <span class="n">path_for_txt</span><span class="o">=</span><span class="n">modelica_txt_file</span><span class="p">,</span>
-    <span class="n">table_name</span><span class="o">=</span><span class="s2">&quot;network_input_from_building&quot;</span><span class="p">,</span>
-<span class="p">)</span>
-</pre></div>
-</div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>The file has been successfully saved as /var/folders/nv/w1zw8hk556sg55ypt4hgm_j40000gn/T/tmp0vwzf3re/input_modelica.txt.
-</pre></div>
-</div>
-<p>Perform the network or subsurface simulation and store all results by overwriting file</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">networkToBHE_avg_temperature</span> <span class="o">=</span> <span class="n">network_to_bhe_avg_temperature</span>
-<span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">networkToBHE_temperatures</span> <span class="o">=</span> <span class="n">network_to_bhe_temperatures</span>
-
-<span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">bheToNetwork_avg_temperature</span> <span class="o">=</span> <span class="n">bhe_to_network_avg_temperature</span>
-
-<span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">bheToNetwork_temperatures</span> <span class="o">=</span> <span class="n">bhe_to_network_temperatures</span>
-
-<span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">save_h5</span><span class="p">(</span><span class="n">h5_file</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Use the results for plotting and further analysis</p>
-<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span>
-    <span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">timevalues</span><span class="p">,</span>
-    <span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">bheToNetwork_avg_temperature</span> <span class="o">-</span> <span class="mf">273.15</span><span class="p">,</span>
-    <span class="n">label</span><span class="o">=</span><span class="s2">&quot;BHEtoNetwork&quot;</span><span class="p">,</span>
-<span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span>
-    <span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">timevalues</span><span class="p">,</span>
-    <span class="n">digital_twin_iter0</span><span class="o">.</span><span class="n">bheToNetwork_avg_temperature</span> <span class="o">-</span> <span class="mf">273.15</span><span class="p">,</span>
-    <span class="n">label</span><span class="o">=</span><span class="s2">&quot;NetworkToBHE&quot;</span><span class="p">,</span>
-<span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\vartheta$ in °C&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;t in s&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-<img src="../../_images/sphx_glr_plot_usecase_digital_twin_001.png" srcset="../../_images/sphx_glr_plot_usecase_digital_twin_001.png" alt="plot usecase digital twin" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.074 seconds)</p>
-<div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-auto-examples-howto-digital-twin-plot-usecase-digital-twin-py">
-<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
-<p><a class="reference download internal" download="" href="../../_downloads/d0d01f7a00897151930ccb338ef9850d/plot_usecase_digital_twin.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_usecase_digital_twin.ipynb</span></code></a></p>
-</div>
-<div class="sphx-glr-download sphx-glr-download-python docutils container">
-<p><a class="reference download internal" download="" href="../../_downloads/d6d28f1085d9bb9c9f10fc4f4efdfcb5/plot_usecase_digital_twin.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">plot_usecase_digital_twin.py</span></code></a></p>
-</div>
-<div class="sphx-glr-download sphx-glr-download-zip docutils container">
-<p><a class="reference download internal" download="" href="../../_downloads/fd16f667303bd5b4367179d0310a59ae/plot_usecase_digital_twin.zip"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">zipped:</span> <span class="pre">plot_usecase_digital_twin.zip</span></code></a></p>
-</div>
+  <section id="uncertainty">
+<span id="sphx-glr-auto-examples-howto-uncertainty"></span><h1>Uncertainty<a class="headerlink" href="#uncertainty" title="Link to this heading">#</a></h1>
+<div class="sphx-glr-thumbnails"><div class="sphx-glr-thumbcontainer" tooltip="Example for uncertain variables collection"><img alt="" src="../../_images/sphx_glr_plot_uncertainty_workflow_thumb.png" />
+<p><a class="reference internal" href="plot_uncertainty_workflow.html#sphx-glr-auto-examples-howto-uncertainty-plot-uncertainty-workflow-py"><span class="std std-ref">Example for uncertain variables collection</span></a></p>
+  <div class="sphx-glr-thumbnail-title">Example for uncertain variables collection</div>
+</div></div><div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -580,20 +480,20 @@ to download the full example code.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="index.html"
+       href="../index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Digital Twin</p>
+        <p class="prev-next-title">Examples</p>
       </div>
     </a>
     <a class="right-next"
-       href="../../reference/index.html"
+       href="plot_uncertainty_workflow.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">API reference</p>
+        <p class="prev-next-title">Example for uncertain variables collection</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -612,7 +512,7 @@ to download the full example code.</p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../_sources/auto_examples/howto_digital_twin/plot_usecase_digital_twin.rst.txt"
+      <li><a href="../../_sources/auto_examples/howto_uncertainty/index.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div></div>

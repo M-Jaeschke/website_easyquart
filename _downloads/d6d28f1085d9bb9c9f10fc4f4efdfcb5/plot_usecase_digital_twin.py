@@ -2,7 +2,7 @@
 Example usage of the DigitalTwin Class
 ==================================
 
-.. sectionauthor: Max Jäschke (HTWK Leipzig)
+.. sectionauthor:: Max Jäschke (HTWK Leipzig)
 
 """
 
